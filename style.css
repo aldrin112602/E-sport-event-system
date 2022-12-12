@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Prompt', sans-serif;
+  transition: all 0.3s;
+}
+i.fas {
+  position: absolute;
+  left: 8px;
+  bottom: 17%;
+  color: #ccc;
+  font-size: 14px;
+}
+i.fa-eye, i.fa-eye-slash {
+  position: absolute;
+  bottom: 16%;
+  right: 10px;
+  color: #ccc;
+  font-size: 14px;
+}
