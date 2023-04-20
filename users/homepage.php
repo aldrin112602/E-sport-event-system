@@ -115,7 +115,7 @@
    }
    .outgoing small {
      position: absolute;
-     right: 50px;
+     /* right: 50px; */
      top: 0;
    }
     .outgoing span {
@@ -124,7 +124,7 @@
      padding: 5px 10px;
      max-width: 70%;
      margin-top: 20px;
-     margin-right: 10px;
+     /* margin-right: 10px; */
      color: #fff;
    }
    #msg-container img {

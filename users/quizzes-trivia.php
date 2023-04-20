@@ -54,30 +54,31 @@
   <script type="text/babel">
     const quiz = [
       {
-        question: "let result = 2009; const func = (x = 262) => { result = x; }; func(null);  What is the value of result?",
-        options: [ 2009, 262, 'null' ],
-        answer_key: 'null'
+        question: " Where did Atlas go with Aurora Heart?",
+        options: [ "The Abyss", "The Hell", "Cadia Riverland", "The World's End" ],
+        answer_key: 'The Abyss'
       },
       {
-        question: "const result = 0 || 1 && 2 || 3;  What is the value of result?",
-        options: [ 1, 2, 'true', 3, 0 ],
-        answer_key: 2
+        question: "What is the maximum number of emblems in the game?",
+        options: [15, 10, 18, 16],
+        answer_key: 16
       },
       {
-        question: "const plus = +0; const minus = -0; const result = plus === minus; What is the value of the result?",
-        options: ['true', "false", "Throw syntax error"],
-        answer_key: "true"
+        question: "How many heroes are there in Mobile Legends?",
+        options: [75, 85, 50, 82],
+        answer_key: 85
       },
       {
-        question: "const result = \"1\" == 1; What is the value of result?",
-        options: ['true', 'false'],
-        answer_key: 'true'
+        question: "What do people call Franco?",
+        options: ['The King of Northern Pirates', 'The Frozen Warrior', 'The Northern Valiant','The Frozen Weirdo'],
+        answer_key: 'The Frozen Warrior'
       },
       {
-        question: "const value = new Set([1, 1, 2, 3, 2, 3]); const result = [...value]; What is the value of result?",
-        options: ['[1, 2, 3]', '[1, 1, 2, 3, 2, 3]', '[ 1 ]', '112323'],
-        answer_key: '[1, 2, 3]'
-      }
+        question: "What does Franco hate the most?",
+        options: ['Jumping','Fighting','Dancing','Swimming'],
+        answer_key: 'Swimming'
+      },
+     
       ]
       
       const App = () => {
