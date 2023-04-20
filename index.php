@@ -78,9 +78,14 @@ if (isset($_SESSION['unique_id']) && isset($_SESSION['user_type'])) {
                         You can also answer some of the questions
                         we prepared to widen your knowledge about E-Sports.
                     </h5>
-                    <button class="btn btn-primary mt-3" href="homepage.php">
+                    <button class="btn btn-primary mt-3">
                         <a class="text-decoration-none text-light" href="accountregister.php">
                             Register now
+                        </a>
+                    </button>
+                    <button class="btn btn-light mt-3">
+                        <a class="text-decoration-none" href="accountlogin.php">
+                            Sign In now
                         </a>
                     </button>
                 </div>

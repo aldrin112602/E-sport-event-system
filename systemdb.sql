@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 03, 2022 at 06:33 AM
+-- Generation Time: Apr 20, 2023 at 03:00 AM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -55,7 +55,11 @@ CREATE TABLE `messages` (
 
 INSERT INTO `messages` (`id`, `message`, `unique_id`, `username`, `profile`) VALUES
 (1, 'hello guys', 'a553e1c1c76fd2968510ead605db1f2f', 'aldrin25', ''),
-(2, 'kamusta kayo hahaha', 'a553e1c1c76fd2968510ead605db1f2f', 'aldrin25', '');
+(2, 'kamusta kayo hahaha', 'a553e1c1c76fd2968510ead605db1f2f', 'aldrin25', ''),
+(3, 'yfghjfgjh', 'a553e1c1c76fd2968510ead605db1f2f', 'aldrin25', '../Uploads/63e842650'),
+(4, 'hfg', 'a553e1c1c76fd2968510ead605db1f2f', 'aldrin25', '../Uploads/63e842650'),
+(5, 'hgfjghjhg', 'b570690e7523a33e329f9a1f1d603218', 'admin@test', ''),
+(6, 'hfghjfgh', 'a553e1c1c76fd2968510ead605db1f2f', 'aldrin25', '../Uploads/64408e6f3');
 
 -- --------------------------------------------------------
 
@@ -107,7 +111,7 @@ CREATE TABLE `quiz_score` (
 
 INSERT INTO `quiz_score` (`id`, `username`, `score`, `unique_id`, `user_type`, `profile`, `items`) VALUES
 (1, 'admin@test', '', 'b570690e7523a33e329f9a1f1d603218', '', '', ''),
-(2, 'aldrin25', '', 'a553e1c1c76fd2968510ead605db1f2f', '', '', '');
+(2, 'aldrin25', '', 'a553e1c1c76fd2968510ead605db1f2f', '', '../Uploads/64408e6f30104_328636784_487741166889867_261676604223418446_n.jpg', '');
 
 -- --------------------------------------------------------
 
@@ -131,7 +135,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `unique_id`, `user_type`, `profile`) VALUES
 (1, 'admin@test', 'admin_test@gmail.com', 'admin@test', 'b570690e7523a33e329f9a1f1d603218', 'admin', ''),
-(2, 'aldrin25', 'caballeroaldrin02@gmail.com', 'aldrin25', 'a553e1c1c76fd2968510ead605db1f2f', 'user', '');
+(2, 'aldrin25', 'caballeroaldrin02@gmail.com', 'aldrin25', 'a553e1c1c76fd2968510ead605db1f2f', 'user', '../Uploads/64408e6f30104_328636784_487741166889867_261676604223418446_n.jpg');
 
 -- --------------------------------------------------------
 
@@ -207,7 +211,7 @@ ALTER TABLE `event`
 -- AUTO_INCREMENT for table `messages`
 --
 ALTER TABLE `messages`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `notification`

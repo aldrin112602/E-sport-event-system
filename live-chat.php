@@ -73,12 +73,12 @@
    }
    .incoming small {
      position: absolute;
-     left: 50px;
+     left: 10px;
      top: 0;
    }
    .outgoing small {
      position: absolute;
-     right: 50px;
+     right: 10px;
      top: 0;
    }
     .outgoing span {
